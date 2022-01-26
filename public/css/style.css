@@ -1,0 +1,19 @@
+body{
+    background-image:url("4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width:100%;
+}
+
+textarea{
+    width:50%;
+}
+
+h1{
+    margin-left:500px;
+}
+.btn-space{
+    margin-right: 10px;
+
+}

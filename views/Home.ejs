@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>hospital_management_system      
+    </title>
+    <style type="text/css">
+      .contain{
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 5%;
+        
+      }
+     
+
+    </style>
+  </head>
+ 
+  <body >
+    
+    <div class="contain">
+      
+      <h1>HOSPITAL MANAGEMENT SYSTEM</h1>
+    <br><br>
+    <h2><b>Details of Employee,Doctor,Patient: </b></h2>
+    <br>
+    
+
+    <a href='http://localhost:3000/SD/1'><button class="btn btn-primary btn-space" >EMPLOYEE details</button></a>
+    <a href='http://localhost:3000/SD/2'><button class="btn btn-primary btn-space">DOCTOR details</button></a>
+    <a href='http://localhost:3000/SD/3'><button class="btn btn-primary btn-space">PATIENT details</button></a>
+
+    <br><br><br>
+    <h2>Lets try some Queries: </h2>
+    <br>
+    <form action="http://localhost:3000/Table" method="GET">
+      <label for="exampleFormControlTextarea1"><h4>Enter Your Query:</h4></label>
+      <div class="form-group">
+       
+        <textarea class="col-md-6" id="exampleFormControlTextarea1" rows="3"  name='my_query'></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  </div>
+  
+
+  </body>
+</html>
